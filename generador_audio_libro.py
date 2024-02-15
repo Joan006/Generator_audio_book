@@ -35,5 +35,5 @@ def generador_audio_libro(seleccion, path_documento):
         print("Opción seleccionada no válida")
 
 # Llamar a la función
-generador_audio_libro(seleccion, path_documento)
-
+if __name__ == '__main__':
+    generador_audio_libro(seleccion, path_documento)
